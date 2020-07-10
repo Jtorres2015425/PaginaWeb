@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Productos | PlantNet</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/tienda.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<header id="header">
+		<div class="header-middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 clearfix">
+						<div class="logo pull-left">
+							<a href="index.html"><img src="images/logo.png"></a>
+						</div>
+					</div>
+					<div class="col-md-8 clearfix">
+						<div class="tienda-menu clearfix pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="perfil.html"> Cuenta</a></li>
+								<li><a href="carrito.html">Carrito</a></li>
+								<li><a href="login.html"> Ingresar</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="header-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="index.html" class="active">Inicio</a></li>
+								<li class="dropdown"><a href="#">Tienda</a>
+                                    <ul role="menu" class="sub-menu">
+										<li><a href="tienda.html">Productos</a></li>
+										<li><a href="carrito.html">Carrito</a></li> 
+										<li><a href="login.html">Ingresar</a></li> 
+                                    </ul>
+								<li><a href="nosotros.html">Nosotros</a></li>
+								<li><a href="error.html">404</a></li>
+								<li><a href="contactanos.html">Contacto</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="search_box pull-right">
+							<input type="text" placeholder="Buscar"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="left-sidebar">
+						<h2>Categorias</h2>
+						<div class="panel-group category-products" id="accordian">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#Colgantes">
+											<span class="badge pull-right"></span>
+											Colgantes
+										</a>
+									</h4>
+								</div>
+								<div id="colgantes" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="">Schlumbergeras </a></li>
+											<li><a href="">Aptenias </a></li>
+											<li><a href="">Sedums </a></li>
+											<li><a href="">Portulacas</a></li>
+											<li><a href="">Ipomoeas </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#Arboles">
+											<span class="badge pull-right"></span>
+											Arboles
+										</a>
+									</h4>
+								</div>
+								<div id="arboles" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="">Ceiba</a></li>
+											<li><a href="">Pino</a></li>
+											<li><a href="">Cipres</a></li>
+											<li><a href="">Eucalipto</a></li>
+											<li><a href="">Palmera</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordian" href="#eventos">
+											<span class="badge pull-right"><i class="fa fa-plus"></i></span>
+											Para Eventos
+										</a>
+									</h4>
+								</div>
+								<div id="eventos" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul>
+											<li><a href="">Arreglos</a></li>
+											<li><a href="">Terrarios</a></li>
+											<li><a href="">Maceta Simple</a></li>
+
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Semillas</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Interior</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Exterior</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Cactus</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Plantas Frutales</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Ornamentales</a></h4>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title"><a href="#">Helechos</a></h4>
+								</div>
+							</div>
+						</div>
+						
+						<div class="price-range">
+							<h2>Rango de PRecio</h2>
+							<div class="well">
+								 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />
+								 <b>Q 0.00</b> <b class="pull-right">Q 700.00</b>
+							</div>
+						</div>					
+					</div>
+				</div>
+				
+				<div class="col-sm-9 padding-right">
+					<div class="features_items">
+						<h2 class="title text-center">Productos en stock</h2>
+						<div class="col-sm-4">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/planta7.png" alt="" />
+										<h2>Q 50.00</h2>
+										<p>Terrario Bonsai</p>
+										<a href="#" class="btn btn-default add-to-cart">Añadir al carro</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/planta8.png" alt="" />
+										<h2>Q 40.00</h2>
+										<p>Codiaeum</p>
+										<a href="#" class="btn btn-default add-to-cart">Añadir al carro</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/planta9.jpg" alt="" />
+										<h2>Q 25.00</h2>
+										<p>Kalanchoe Blossfeldiana</p>
+										<a href="#" class="btn btn-default add-to-cart">Añadir al carro</a>
+									</div>
+								</div>
+							</div>
+						</div>
+				<br>
+
+					<div class="">.</div>
+
+				<br>
+
+						<div class="col-sm-4">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/planta5.png" alt="" />
+										<h2>Q 85.00</h2>
+										<p>Anturio Rojo</p>
+										<a href="#" class="btn btn-default add-to-cart">Añadir al carro</a>
+									</div>
+								</div>
+							</div>
+						</div>		
+						<div class="col-sm-4">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/planta6.png" alt="" />
+										<h2>Q38.00</h2>
+										<p>Helecho cola de quetzal</p>
+										<a href="#" class="btn btn-default add-to-cart">Añadir al carro</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="product-image-wrapper">
+								<div class="single-products">
+									<div class="productinfo text-center">
+										<img src="images/planta4.png" alt="" />
+										<h2>Q62.00</h2>
+										<p>Eucalipto azul</p>
+										<a href="#" class="btn btn-default add-to-cart">Añadir al carro</a>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<br>
+						<ul class="pagination">
+							<li class="active"><a href="">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">&raquo;</a></li>
+						</ul>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>

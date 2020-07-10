@@ -1,0 +1,38 @@
+
+.logo-404 {
+    margin-top: 60px;
+}
+
+.info-404 {
+    margin-bottom: 60px;
+}
+
+.info-404 h1 {
+    color: #363432;
+    font-family: 'Roboto', sans-serif;
+    font-size: 41px;
+    font-weight: 300;
+}
+
+.info-404 img {
+    margin: 0 auto;
+}
+
+.info-404 p {
+    color: #363432;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.info-404 h2 {
+    margin-top: 50px;
+}
+
+.info-404 h2 a {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    font-weight: 300;
+    padding: 8px 40px;
+}
+
